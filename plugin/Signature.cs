@@ -18,10 +18,11 @@ namespace URAH_Loader
     /// </summary>
     internal sealed class Signature
     {
-        /// <summary>RSAKeyValue XML (tools/sign_plugins.py pub). Filled in step 2 of PLUGIN_LOADER_PLAN.md.</summary>
+        /// <summary>RSAKeyValue XML (tools/sign_plugins.py pub).</summary>
         private static readonly string[] BuiltIn =
         {
-            // release key
+            // release key, 2026-10-17 (keys/release_key.xml in URAH_koh2_knowledge)
+            "<RSAKeyValue><Modulus>u5h4QnoqnX7dTAyYpKiZvaIIqU6GTM6kse58GuSRUwh9gLGSI+7NJOjTujhyx+3cAN/C3giclYQhSJJMDs8FdXTzhsYm7ps0JR/5SHvwEfU5lUKuj9ndPVg64x3Fb4qe9P7bS33T0SfYe8nXoLQ4Mignf1yWAcJ2LTFxlAvK8MTCe6g+Z3k0WeDYM5GSlFCttumHW7wSUUsoKbEUlpDY6Ftgw7PyviKXUB7xCMoaK96hXgIaDETYEYjcJFPRpo6JryIgt6Mb89/SaXKUSnL8c8MZUOmYWPxu8QQLOl6PCnYKy2TMQhuRZ59lnmnROnXuhQq3cfQApI/24v01OCVNMCrgdzXgFdVh7sL7CWhSvCYpSc5YME7gq1SUBd7JUcFAS4w8Cn9cD6USNA8GE5RayyicZ3y6Wzd2ZRN1bde5jQtYcCNUXuz4gzyL6/tid24Uw2OvlS3FQlz0Mxe7n3ou3vLNdbaC5k8JyMY0kRJZGY2AzVzvUC1wx4hYfHpAqzyX</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>",
         };
 
         private readonly List<KeyValuePair<string, string>> keys = new List<KeyValuePair<string, string>>();
