@@ -34,6 +34,12 @@ Install BepInEx 5 (x64) into the game folder, then put `URAH_Loader.dll` into
 `BepInEx/plugins/URAH_Loader/`. Subscribe to the URAH mods on the Workshop and switch them on in the
 game's Mods menu.
 
+## Releases
+
+Built and signed releases are in [URAH_koh2_releases](https://github.com/URAHDangerzone/URAH_koh2_releases/releases): [`URAH_Loader-v<version>`](https://github.com/URAHDangerzone/URAH_koh2_releases/releases?q=URAH_Loader&expanded=true) is this plugin alone
+(`BepInEx/plugins/URAH_Loader/`), [`URAH_Starter`](https://github.com/URAHDangerzone/URAH_koh2_releases/releases?q=URAH_Starter&expanded=true) bundles BepInEx 5 with URAH_Loader, URAH_Net and URAH_Hover.
+Every release is signed with the URAH release key; [URAH_koh2_releases](https://github.com/URAHDangerzone/URAH_koh2_releases) explains how to check it.
+
 ## Development
 
 ```
